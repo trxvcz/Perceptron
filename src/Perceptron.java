@@ -18,8 +18,6 @@ public class Perceptron {
         if (output > 1 || output < 0) {
             throw new IllegalArgumentException("Output must be 0 or 1");
         }
-
-        float[] W = new float[weights.length];
         int y = classify(input);
         for (int i = 0; i < weights.length; i++) {
             weights[i] += (output - y) * input[i] * learningRate;
