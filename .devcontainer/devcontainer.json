@@ -11,7 +11,7 @@
 			"installMaven": "true",
 			"installGradle": "false"
 		},
-		"ghcr.io/devcontainer-config/features/dot-config:4": {}
+		"ghcr.io/devcontainer-config/features/dot-config:5": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
